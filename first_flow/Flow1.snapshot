@@ -1,0 +1,42 @@
+{
+  "header" : {
+    "dataModelVersion" : "3"
+  },
+  "content" : {
+    "flowSnapshot" : {
+      "externalControllerServices" : { },
+      "flowContents" : {
+        "comments" : "",
+        "componentType" : "PROCESS_GROUP",
+        "connections" : [ ],
+        "controllerServices" : [ ],
+        "defaultBackPressureDataSizeThreshold" : "1 GB",
+        "defaultBackPressureObjectThreshold" : 10000,
+        "defaultFlowFileExpiration" : "0 sec",
+        "executionEngine" : "INHERITED",
+        "flowFileConcurrency" : "UNBOUNDED",
+        "flowFileOutboundPolicy" : "STREAM_WHEN_AVAILABLE",
+        "funnels" : [ ],
+        "identifier" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+        "inputPorts" : [ ],
+        "instanceIdentifier" : "5b854f63-018e-1000-5a4a-9635f8b61711",
+        "labels" : [ ],
+        "maxConcurrentTasks" : 1,
+        "name" : "opcua template",
+        "outputPorts" : [ ],
+        "position" : {
+          "x" : 280.0,
+          "y" : 24.0
+        },
+        "processGroups" : [ ],
+        "processors" : [ ],
+        "remoteProcessGroups" : [ ],
+        "scheduledState" : "ENABLED",
+        "statelessFlowTimeout" : "1 min"
+      },
+      "flowEncodingVersion" : "1.0",
+      "parameterContexts" : { },
+      "parameterProviders" : { }
+    }
+  }
+}
