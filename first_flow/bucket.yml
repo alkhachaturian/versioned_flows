@@ -1,5 +1,5 @@
 flows:
-  171f5839-ee3f-48e4-9728-fce2117ed2b3: {ver: 1, file: Flow1.snapshot, comments: '',
-    author: anonymous, created: 1710933125655, flowName: Flow1, flowDesc: ''}
+  171f5839-ee3f-48e4-9728-fce2117ed2b3: {ver: 2, file: Flow1.snapshot, comments: browsing,
+    author: anonymous, created: 1711005081383, flowName: Flow1, flowDesc: ''}
 layoutVer: 1
 bucketId: 36cc34a5-32a5-4162-a661-45676c3d3125
