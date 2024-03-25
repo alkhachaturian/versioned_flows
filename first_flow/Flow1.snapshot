@@ -49,6 +49,39 @@
           "destination" : {
             "comments" : "",
             "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+            "id" : "415b5b8f-ea79-3148-9bc0-8a43a304fb49",
+            "instanceIdentifier" : "018e1000-3709-1ba6-e264-d546d2609c57",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+          "identifier" : "1c51c1d5-894f-3e96-bf47-44e9e73847e7",
+          "instanceIdentifier" : "018e1036-3709-1ba6-a3b0-e7f0a87bfd91",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "Failure" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+            "id" : "7b185610-0bce-3639-9ae6-30b7c8948d91",
+            "instanceIdentifier" : "018e1006-3709-1ba6-aad6-9e59aaf912d9",
+            "name" : "GetOPCData",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
             "id" : "0bc635d5-a19d-37b9-a78f-6593409180ef",
             "instanceIdentifier" : "5ba63709-018e-1000-5a26-3cf42c375ba4",
             "name" : "LogMessage",
@@ -71,6 +104,39 @@
             "id" : "50c83ead-2c21-39a7-a44a-5c4b2f6fe3d6",
             "instanceIdentifier" : "018e1007-3709-1ba6-5ca8-36d838a676b9",
             "name" : "SubscribeOPCNodes",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+            "id" : "53a5a39f-1709-3e0c-8fbb-4f94035a0017",
+            "instanceIdentifier" : "018e1034-3709-1ba6-7793-45b91a509680",
+            "name" : "LogMessage",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+          "identifier" : "6e13f5e1-a5f5-37dd-aa27-4a7c0c366f61",
+          "instanceIdentifier" : "018e1035-3709-1ba6-87cb-d3a61c7f754b",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "Success" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+            "id" : "7b185610-0bce-3639-9ae6-30b7c8948d91",
+            "instanceIdentifier" : "018e1006-3709-1ba6-aad6-9e59aaf912d9",
+            "name" : "GetOPCData",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -170,6 +236,39 @@
             "id" : "50c83ead-2c21-39a7-a44a-5c4b2f6fe3d6",
             "instanceIdentifier" : "018e1007-3709-1ba6-5ca8-36d838a676b9",
             "name" : "SubscribeOPCNodes",
+            "type" : "PROCESSOR"
+          },
+          "zIndex" : 0
+        }, {
+          "backPressureDataSizeThreshold" : "1 GB",
+          "backPressureObjectThreshold" : 10000,
+          "bends" : [ ],
+          "componentType" : "CONNECTION",
+          "destination" : {
+            "comments" : "",
+            "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+            "id" : "7b185610-0bce-3639-9ae6-30b7c8948d91",
+            "instanceIdentifier" : "018e1006-3709-1ba6-aad6-9e59aaf912d9",
+            "name" : "GetOPCData",
+            "type" : "PROCESSOR"
+          },
+          "flowFileExpiration" : "0 sec",
+          "groupIdentifier" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+          "identifier" : "48b7b197-9f03-34a9-bcab-ad9b68676109",
+          "instanceIdentifier" : "018e1032-3709-1ba6-c3c3-643482c3b9a3",
+          "labelIndex" : 1,
+          "loadBalanceCompression" : "DO_NOT_COMPRESS",
+          "loadBalanceStrategy" : "DO_NOT_LOAD_BALANCE",
+          "name" : "",
+          "partitioningAttribute" : "",
+          "prioritizers" : [ ],
+          "selectedRelationships" : [ "filter1" ],
+          "source" : {
+            "comments" : "",
+            "groupId" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+            "id" : "9fea7863-3e7d-38ae-825f-d79dc037280d",
+            "instanceIdentifier" : "018e1016-3709-1ba6-3af3-139cba93debe",
+            "name" : "RouteText",
             "type" : "PROCESSOR"
           },
           "zIndex" : 0
@@ -314,8 +413,8 @@
         "name" : "opcua template",
         "outputPorts" : [ ],
         "position" : {
-          "x" : 280.0,
-          "y" : 24.0
+          "x" : 576.0,
+          "y" : 48.0
         },
         "processGroups" : [ ],
         "processors" : [ {
@@ -550,7 +649,11 @@
             "y" : 168.0
           },
           "properties" : {
+            "Tag List Location" : "./",
             "Exclude Null Value" : "No",
+            "OPC UA Service" : "02cab027-cee3-3dba-ad13-714c600d51be",
+            "Return Timestamp" : "SourceTimestamp",
+            "Tag List Source" : "Flowfile",
             "Aggregate Records" : "false"
           },
           "propertyDescriptors" : {
@@ -696,6 +799,64 @@
           "schedulingStrategy" : "TIMER_DRIVEN",
           "style" : { },
           "type" : "de.fraunhofer.fit.processors.opcua.ListOPCNodes",
+          "yieldDuration" : "1 sec"
+        }, {
+          "autoTerminatedRelationships" : [ "success" ],
+          "backoffMechanism" : "PENALIZE_FLOWFILE",
+          "bulletinLevel" : "WARN",
+          "bundle" : {
+            "artifact" : "nifi-standard-nar",
+            "group" : "org.apache.nifi",
+            "version" : "2.0.0-M2"
+          },
+          "comments" : "",
+          "componentType" : "PROCESSOR",
+          "concurrentlySchedulableTaskCount" : 1,
+          "executionNode" : "ALL",
+          "groupIdentifier" : "73e8dc1b-b686-36fe-9837-41ff3c845957",
+          "identifier" : "53a5a39f-1709-3e0c-8fbb-4f94035a0017",
+          "instanceIdentifier" : "018e1034-3709-1ba6-7793-45b91a509680",
+          "maxBackoffPeriod" : "10 mins",
+          "name" : "LogMessage",
+          "penaltyDuration" : "30 sec",
+          "position" : {
+            "x" : 184.0,
+            "y" : 384.0
+          },
+          "properties" : {
+            "log-level" : "info"
+          },
+          "propertyDescriptors" : {
+            "log-message" : {
+              "displayName" : "Log message",
+              "dynamic" : false,
+              "identifiesControllerService" : false,
+              "name" : "log-message",
+              "sensitive" : false
+            },
+            "log-level" : {
+              "displayName" : "Log Level",
+              "dynamic" : false,
+              "identifiesControllerService" : false,
+              "name" : "log-level",
+              "sensitive" : false
+            },
+            "log-prefix" : {
+              "displayName" : "Log prefix",
+              "dynamic" : false,
+              "identifiesControllerService" : false,
+              "name" : "log-prefix",
+              "sensitive" : false
+            }
+          },
+          "retriedRelationships" : [ ],
+          "retryCount" : 10,
+          "runDurationMillis" : 25,
+          "scheduledState" : "ENABLED",
+          "schedulingPeriod" : "0 sec",
+          "schedulingStrategy" : "TIMER_DRIVEN",
+          "style" : { },
+          "type" : "org.apache.nifi.processors.standard.LogMessage",
           "yieldDuration" : "1 sec"
         }, {
           "autoTerminatedRelationships" : [ "original" ],
